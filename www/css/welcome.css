@@ -1,0 +1,104 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: #EBEBEB;
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 1232px;
+    width: 100%;
+}
+
+.fixedheaderLogin {
+    background-color: #FFFFFF;
+    padding-bottom: 2%;
+    width: 100%;
+    outline: 1px solid #CCCCCC;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+h3 {
+    font-size: 21px;
+    margin: 8% 10% 5.5%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.projectbox {
+    background-color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    margin: 0 auto 4%;
+    padding: 3% 0 0;
+    position: relative;
+    top: 0;
+    width: 85%;
+}
+
+hr {
+    border: 1px solid #CCCCCC;
+    display: block;
+    height: 2px;
+    margin: 2.5% auto;
+    border-style: solid none none;
+}
+
+.project_name {
+    font-weight: 600;
+    text-decoration: none;
+    color: #333333;
+    font-size: 12px;
+}
+
+.next {
+    float: right;
+    height: 14px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 2%;
+    padding: 2% 5% 3%;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+li:hover .project_name {
+    color: #2064C2;
+}
+
+ul li:last-child {
+    border: none;
+}
+
+.footerLogout {
+    background-color: #262A38;
+    padding: 4% 0 6%;
+    text-align: center;
+    width: 100%;
+}
+
+.logout {
+    color: #CCCCCC;
+    text-decoration: underline;
+    font-size: 13px;
+}
+

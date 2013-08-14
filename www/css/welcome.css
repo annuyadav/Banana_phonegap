@@ -30,11 +30,11 @@ body {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 30px;
     margin: 8% 10% 5.5%;
     text-align: center;
     text-transform: capitalize;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .projectbox {
@@ -59,7 +59,7 @@ hr {
     font-weight: 600;
     text-decoration: none;
     color: #333333;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .next {
@@ -96,10 +96,11 @@ ul li:last-child {
     padding: 4% 0 6%;
     text-align: center;
     width: 100%;
+    bottom: 0px;
 }
 
 .logout {
     color: #CCCCCC;
     text-decoration: underline;
-    font-size: 13px;
+    font-size: 17px;
 }

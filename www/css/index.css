@@ -21,6 +21,8 @@ body {
 .logo_image {
     margin: 0 auto;
     max-width: 100%;
+    min-height: 100px;
+    min-width: 525px;
 }
 
 .container {
@@ -35,9 +37,9 @@ body {
     background-color: #EBEBEB;
     border: 1px solid #C8C8C8;
     border-radius: 0;
-    margin: 5% auto;
-    font-size: 12px;
-    padding: 12.5px 10px;
+    margin: 15% auto;
+    font-size: 17px;
+    padding: 2% 3%;
     width: 68.7%;
     display: block;
 }
@@ -52,14 +54,13 @@ body {
     border-radius: 6px 6px 6px 6px;
     border: none;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 17px;
     margin: auto;
-    padding: 12px 15px;
+    padding: 2% 3%;
     position: relative;
-    text-align: center;
     text-transform: uppercase;
     top: 15px;
-    width: 150px;
+    /*width: 150px;*/
     display: block;
 }
 
@@ -71,10 +72,10 @@ body {
     color: #CCCCCC;
     text-decoration: underline;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
     display: block;
-    margin: 14% 0 auto;
+    margin: 15% 0 auto;
 
 }
 

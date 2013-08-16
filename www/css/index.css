@@ -21,8 +21,8 @@ body {
 .logo_image {
     margin: 0 auto;
     max-width: 100%;
-    min-height: 100px;
-    min-width: 525px;
+    /*min-height: 100px;*/
+    width: 100%;
 }
 
 .container {
@@ -56,9 +56,9 @@ body {
     color: #FFFFFF;
     font-size: 17px;
     margin: auto;
-    padding: 2% 3%;
-    position: relative;
-    text-align: center;
+    padding: 3% 4%;
+    /*position: relative;*/
+    /*text-align: center;*/
     text-transform: uppercase;
     top: 15px;
     /*width: 150px;*/
